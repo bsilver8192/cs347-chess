@@ -1,0 +1,12 @@
+digraph diagram {
+	rankdir=LR;
+	"Menu" -> "Share to Facebook";
+	"Menu" -> "Start a Game";
+	"Start a Game" -> "Start Timer";
+	"Start Timer" -> "Stop Timer";
+	"Stop Timer" -> "Start Timer";
+	"Start a Game" -> "User's Turn";
+	"User's Turn" -> "Computer's Turn";
+	"Computer's Turn" -> "Chess AI";
+	"Chess AI" -> "User's Turn";
+}
