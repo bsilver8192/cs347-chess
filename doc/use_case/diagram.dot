@@ -1,5 +1,6 @@
 digraph diagram {
 	rankdir=LR;
+	imgnode[image="stick_figure.jpg", label="", width=1, color=white, shape=square, fixedsize=true];
 	"Menu" -> "Share to Facebook";
 	"Menu" -> "Start a Game";
 	"Start a Game" -> "Start Timer";
