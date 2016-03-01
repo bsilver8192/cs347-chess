@@ -1,0 +1,11 @@
+digraph diagram {
+	rankdir=LR;
+	"Menu" -> "Start a Game";
+        userImage[image="stick_figure.jpg", label="User", width=1, color=white, shape=square, fixedsize=true, labelloc="b"];
+        chessAI[image="stick_figure.jpg", label="Chess AI", width=1, color=white, shape=square, fixedsize=true, labelloc="b"];
+        userImage -> "User's Turn";
+	"Start a Game" -> "User's Turn";
+	"User's Turn" -> "Computer's Turn";
+	chessAI -> "Computer's Turn";
+        "Computer's Turn" -> "User's Turn";
+}
