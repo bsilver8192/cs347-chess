@@ -6,4 +6,4 @@
 
 cd "$(dirname "${BASH_SOURCE[0]}")"
 
-dot -Tsvg diagram.dot -o diagram.svg
+dot -Tpng fullDiagram.dot -o fullDiagram.png
